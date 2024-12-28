@@ -11,9 +11,6 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -207,7 +204,7 @@ ol {
 .button {
   background-color: transparent;
   border: 1px solid white;
-  font-size: 17px;
+  font-size: 18px;
   font-family: "Fira Sans Condensed", 'Arial Narrow', sans-serif;
   font-weight: 700;
   line-height: 21.6px;
@@ -234,7 +231,7 @@ ol {
 .more-button {
   width: calc(100% - 6px);
   margin: 30px 3px 2px;
-  padding: 6px 140px;
+  padding: 6px 138px;
 }
 
 .content__details {
@@ -265,9 +262,6 @@ ol {
 }
 
 .content__list {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   display: flex;
   flex-direction: column;
   gap: 27px;
