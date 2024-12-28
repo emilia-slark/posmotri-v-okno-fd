@@ -42,11 +42,15 @@ ol {
 
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   width: 4px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
   background: rgb(217 217 217 / 10%);
+  
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
